@@ -1,17 +1,9 @@
-import Image from 'next/image';
 import React from 'react';
-
-import DiscordIcon from '~/svg/discord.svg';
-import LocationIcon from '~/svg/location.svg';
-import MarkIcon from '~/svg/mark.svg';
-import MeeIcon from '~/svg/mee.svg';
-import TelegramIcon from '~/svg/telegram.svg';
-import TwitterIcon from '~/svg/twitter.svg';
 
 const ProjectScreen = () => {
   return (
     <div className='flex flex-col items-start'>
-      <div className='rounded-lg bg-white'>
+      {/* <div className='rounded-lg bg-white'>
         <Image src='/images/bg-card.png' alt='logo' width={542} height={225} />
         <div className='flex flex-col gap-6 px-6 py-3'>
           <div className='flex items-start justify-between'>
@@ -57,7 +49,7 @@ const ProjectScreen = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
   1;

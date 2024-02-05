@@ -6,9 +6,9 @@ import { MdOutlineSettings } from 'react-icons/md';
 import Button from '@/components/common/button';
 import NumericalInput from '@/components/common/numericalInput';
 
+import BTLIcon from '~/svg/btl.svg';
 import ChangeIcon from '~/svg/change.svg';
 import MarkIcon from '~/svg/mark.svg';
-import MeeIcon from '~/svg/mee.svg';
 
 const SwapScreen = (): JSX.Element => {
   return (
@@ -40,7 +40,7 @@ const SwapScreen = (): JSX.Element => {
         <div className='flex flex-col gap-2 rounded-lg bg-[#FFF8E3] p-3'>
           <div className='flex w-full items-center justify-between'>
             <div className='flex min-w-[150px] items-center gap-2 rounded-lg border border-black bg-white px-3 py-1'>
-              <MeeIcon />
+              <BTLIcon />
               <div className='font-bold'>MEE</div>
             </div>
             <NumericalInput value={0} onChange={(v) => console.log(v)} />

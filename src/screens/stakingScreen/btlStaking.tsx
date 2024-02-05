@@ -1,15 +1,13 @@
-import Image from 'next/image';
-
 import Button from '@/components/common/button';
 
+import BTLIcon from '~/svg/btl.svg';
 import EmptyIcon from '~/svg/empty.svg';
-import MeeIcon from '~/svg/mee.svg';
 
-const MeeStakingScreen = (): JSX.Element => {
+const BTLStakingScreen = (): JSX.Element => {
   return (
     <div className='flex flex-col gap-4'>
-      <div className='relative flex h-[213px] w-full items-start justify-center rounded-lg bg-[#EFF8FD]'>
-        <Image
+      <div className='relative flex h-[213px] w-full items-center justify-center rounded-lg bg-[#EFF8FD]'>
+        {/* <Image
           className='absolute left-0 rounded-l-lg'
           src='/svg/funded-bg-2.svg'
           width={168}
@@ -22,7 +20,7 @@ const MeeStakingScreen = (): JSX.Element => {
           width={463}
           height={213}
           alt='left'
-        />
+        /> */}
         <div className='flex flex-col items-center justify-start gap-4 p-5 text-2xl'>
           <div className='text-4xl font-bold'>Funded Projects</div>
           <div className='grid grid-cols-4 items-center text-sm font-semibold'>
@@ -50,33 +48,33 @@ const MeeStakingScreen = (): JSX.Element => {
       <div className='rounded-lg bg-white p-10'>
         <div className='flex flex-col items-center gap-10'>
           <div className='flex items-center gap-2'>
-            <MeeIcon className='h-10 w-10' />
-            <div className='text-2xl font-bold'>MEE Staking</div>
+            <BTLIcon className='h-10 w-10' />
+            <div className='text-2xl font-bold'>BTL Staking</div>
           </div>
           <div className='grid w-full grid-cols-3 gap-4'>
-            <div className='flex flex-col items-start gap-4 rounded-lg bg-[#EFF8FD] p-5 shadow-card'>
-              <div className='text-xl font-semibold'>MEE STAKED:</div>
+            <div className='shadow-card flex flex-col items-start gap-4 rounded-lg bg-[#EFF8FD] p-5'>
+              <div className='text-xl font-semibold'>BTL STAKED:</div>
               <div className='text-xl font-semibold'>0</div>
               <div className='flex items-center gap-4'>
                 <Button>Stake</Button>
                 <Button disabled>UnStake</Button>
               </div>
             </div>
-            <div className='flex flex-col items-start gap-4 rounded-lg bg-[#EFF8FD] p-5 shadow-card'>
+            <div className='shadow-card flex flex-col items-start gap-4 rounded-lg bg-[#EFF8FD] p-5'>
               <div className='text-xl font-semibold'>PENDING REWARDS:</div>
               <div className='text-xl font-semibold'>0</div>
               <div className='flex items-center gap-4'>
                 <Button disabled>Harvest</Button>
               </div>
             </div>
-            <div className='flex flex-col items-start gap-4 rounded-lg bg-[#EFF8FD] p-5 shadow-card'>
+            <div className='shadow-card flex flex-col items-start gap-4 rounded-lg bg-[#EFF8FD] p-5'>
               <div className='text-xl font-semibold'>
                 ESTIMATED IDO ALLOCATION:
               </div>
               <div className='text-xl font-semibold'>N/A</div>
             </div>
           </div>
-          <div className='grid grid-cols-3 w-full items-center justify-center rounded-lg bg-[#F0F0F0] p-3 font-semibold'>
+          <div className='grid w-full grid-cols-3 items-center justify-center rounded-lg bg-[#F0F0F0] p-3 font-semibold'>
             <div>Pending Withdraw</div>
             <div>Amount</div>
             <div>Actions</div>
@@ -93,4 +91,4 @@ const MeeStakingScreen = (): JSX.Element => {
   );
 };
 
-export default MeeStakingScreen;
+export default BTLStakingScreen;

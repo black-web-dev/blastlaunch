@@ -1,2 +1,2 @@
-export * from './meeStaking';
+export * from './btlStaking';
 export * from './subHeader';

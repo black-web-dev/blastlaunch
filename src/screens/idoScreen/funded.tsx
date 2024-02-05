@@ -5,8 +5,8 @@ import EmptyIcon from '~/svg/empty.svg';
 const FundedScreen = (): JSX.Element => {
   return (
     <div className='flex flex-col gap-4'>
-      <div className='relative flex h-[213px] w-full items-start justify-center rounded-lg bg-[#EFF8FD]'>
-        <Image
+      <div className='relative flex h-[213px] w-full items-center justify-center rounded-lg bg-[#EFF8FD]'>
+        {/* <Image
           className='absolute left-0 rounded-l-lg'
           src='/svg/funded-bg-2.svg'
           width={168}
@@ -19,7 +19,7 @@ const FundedScreen = (): JSX.Element => {
           width={463}
           height={213}
           alt='left'
-        />
+        /> */}
         <div className='flex flex-col items-center justify-start gap-4 p-5'>
           <div className='text-2xl font-bold'>Funded Projects</div>
           <div className='grid grid-cols-4 items-center text-sm font-semibold'>

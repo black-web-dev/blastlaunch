@@ -10,7 +10,7 @@ export const Status = () => {
         <div className='font-semibold'>2,247</div>
       </div>
       <div className='flex gap-1'>
-        <div>MEE Price:</div>
+        <div>BTL Price:</div>
         <div className='font-semibold'>$0.01841</div>
       </div>
     </div>

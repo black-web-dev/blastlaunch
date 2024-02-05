@@ -19,14 +19,20 @@ export const Menu = () => {
             IDO
           </Button>
         </Link>
-        <Link href='/staking/meeStaking'>
-          <Button className='w-full' icon={<StakingIcon />}>Staking</Button>
+        <Link href='/staking'>
+          <Button className='w-full' icon={<StakingIcon />}>
+            Staking
+          </Button>
         </Link>
         <Link href='/swap'>
-          <Button className='w-full' icon={<SwapIcon />}>Swap</Button>
+          <Button className='w-full' icon={<SwapIcon />}>
+            Swap
+          </Button>
         </Link>
         <Link href='/governance'>
-          <Button className='w-full' icon={<GovernanceIcon />}>Govenance</Button>
+          <Button className='w-full' icon={<GovernanceIcon />}>
+            Govenance
+          </Button>
         </Link>
       </div>
       <div className='mx-4 h-[2px] bg-[#EFF4F5]'></div>
