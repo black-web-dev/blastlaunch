@@ -1,5 +1,5 @@
 import { ConnectButton } from '@rainbow-me/rainbowkit';
-import React, { useCallback, useEffect, useState } from 'react';
+import React, { useCallback, useEffect } from 'react';
 import { BsExclamationTriangle } from 'react-icons/bs';
 import { CiWallet } from 'react-icons/ci';
 import { useSelector } from 'react-redux';
