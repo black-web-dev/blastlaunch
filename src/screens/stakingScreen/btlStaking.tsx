@@ -1,6 +1,5 @@
 import Button from '@/components/common/button';
 
-import BTLIcon from '~/svg/btl.svg';
 import EmptyIcon from '~/svg/empty.svg';
 
 const BTLStakingScreen = (): JSX.Element => {
@@ -38,17 +37,16 @@ const BTLStakingScreen = (): JSX.Element => {
             </div>
           </div>
           <div className='grid w-full grid-cols-4 items-center justify-center'>
-            <div className='flex justify-center font-bold'>1,558,451</div>
-            <div className='flex justify-center font-bold'>$28,691</div>
-            <div className='flex justify-center font-bold'>2,247</div>
-            <div className='flex justify-center font-bold'>21.22%</div>
+            <div className='flex justify-center font-bold'>-</div>
+            <div className='flex justify-center font-bold'>-</div>
+            <div className='flex justify-center font-bold'>-</div>
+            <div className='flex justify-center font-bold'>-</div>
           </div>
         </div>
       </div>
       <div className='rounded-lg bg-white p-10'>
         <div className='flex flex-col items-center gap-10'>
           <div className='flex items-center gap-2'>
-            <BTLIcon className='h-10 w-10' />
             <div className='text-2xl font-bold'>BTL Staking</div>
           </div>
           <div className='grid w-full grid-cols-3 gap-4'>

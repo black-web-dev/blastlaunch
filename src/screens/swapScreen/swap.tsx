@@ -8,7 +8,7 @@ import NumericalInput from '@/components/common/numericalInput';
 
 import BTLIcon from '~/svg/btl.svg';
 import ChangeIcon from '~/svg/change.svg';
-import MarkIcon from '~/svg/mark.svg';
+import ETHIcon from '~/svg/eth.svg';
 
 const SwapScreen = (): JSX.Element => {
   return (
@@ -18,8 +18,8 @@ const SwapScreen = (): JSX.Element => {
         <div className='flex flex-col gap-2 rounded-lg bg-[#FFF8E3] p-3'>
           <div className='flex w-full items-center justify-between'>
             <div className='flex min-w-[150px] items-center gap-2 rounded-lg border border-black bg-white px-3 py-1'>
-              <MarkIcon />
-              <div className='font-bold'>APT</div>
+              <ETHIcon />
+              <div className='font-bold'>ETH</div>
             </div>
             <NumericalInput value={0} onChange={(v) => console.log(v)} />
           </div>
@@ -41,7 +41,7 @@ const SwapScreen = (): JSX.Element => {
           <div className='flex w-full items-center justify-between'>
             <div className='flex min-w-[150px] items-center gap-2 rounded-lg border border-black bg-white px-3 py-1'>
               <BTLIcon />
-              <div className='font-bold'>MEE</div>
+              <div className='font-bold'>BTL</div>
             </div>
             <NumericalInput value={0} onChange={(v) => console.log(v)} />
           </div>
@@ -55,9 +55,9 @@ const SwapScreen = (): JSX.Element => {
           </div>
         </div>
         <div className='flex items-center justify-center gap-2 text-xs font-bold'>
-          <div>1 APT</div>
+          <div>1 ETH</div>
           <div>=</div>
-          <div>0.000000 MEE</div>
+          <div>0.000000 BTL</div>
           <div>
             <MdOutlineSwapHoriz />
           </div>
