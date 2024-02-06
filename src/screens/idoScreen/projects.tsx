@@ -10,7 +10,7 @@ const ProjectScreen = () => {
             <div className='flex gap-2'>
               <MeeIcon className='h-10 w-10' />
               <div className='flex flex-col'>
-                <div className='font-semibold'>Meeiro</div>
+                <div className='font-semibold'>Blastlaunch</div>
                 <div className='flex items-center gap-1'>
                   <LocationIcon />
                   <div className='text-xs'>APTOS</div>

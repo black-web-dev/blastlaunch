@@ -27,7 +27,7 @@ function Base<P>({
   return (
     <React.StrictMode>
       <Head>
-        <title>{`${title ? `${title} | ` : ''} Meeiro`}</title>
+        <title>{`${title ? `${title} | ` : ''} Blastlaunch`}</title>
         {description && <meta name='description' content={description} />}
         <meta
           name='viewport'
