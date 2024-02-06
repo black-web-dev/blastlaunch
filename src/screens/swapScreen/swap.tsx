@@ -6,7 +6,7 @@ import { MdOutlineSettings } from 'react-icons/md';
 import Button from '@/components/common/button';
 import NumericalInput from '@/components/common/numericalInput';
 
-import BTLIcon from '~/svg/bitlocus.svg';
+import BTLIcon from '~/svg/logo.svg';
 import ChangeIcon from '~/svg/change.svg';
 import ETHIcon from '~/svg/eth.svg';
 
