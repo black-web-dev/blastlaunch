@@ -6,7 +6,7 @@ import { MdOutlineSettings } from 'react-icons/md';
 import Button from '@/components/common/button';
 import NumericalInput from '@/components/common/numericalInput';
 
-import BTLIcon from '~/svg/btl.svg';
+import BTLIcon from '~/svg/bitlocus.svg';
 import ChangeIcon from '~/svg/change.svg';
 import ETHIcon from '~/svg/eth.svg';
 
@@ -18,7 +18,7 @@ const SwapScreen = (): JSX.Element => {
         <div className='flex flex-col gap-2 rounded-lg bg-[#FFF8E3] p-3'>
           <div className='flex w-full items-center justify-between'>
             <div className='flex min-w-[150px] items-center gap-2 rounded-lg border border-black bg-white px-3 py-1'>
-              <ETHIcon />
+              <ETHIcon className="rounded-full w-5 h-5" />
               <div className='font-bold'>ETH</div>
             </div>
             <NumericalInput value={0} onChange={(v) => console.log(v)} />
@@ -40,7 +40,7 @@ const SwapScreen = (): JSX.Element => {
         <div className='flex flex-col gap-2 rounded-lg bg-[#FFF8E3] p-3'>
           <div className='flex w-full items-center justify-between'>
             <div className='flex min-w-[150px] items-center gap-2 rounded-lg border border-black bg-white px-3 py-1'>
-              <BTLIcon />
+              <BTLIcon className="rounded-full w-5 h-5" />
               <div className='font-bold'>BTL</div>
             </div>
             <NumericalInput value={0} onChange={(v) => console.log(v)} />

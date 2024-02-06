@@ -37,7 +37,9 @@ export const Menu = () => {
       </div>
       <div className='mx-4 h-[2px] bg-[#EFF4F5]'></div>
       <div className='flex flex-col gap-2'>
-        <Button icon={<DocsIcon />}>Docs</Button>
+        <Link href='https://ezfi.gitbook.io/blastlaunch/' target='_blank'>
+          <Button className='w-full' icon={<DocsIcon />}>Docs</Button>
+        </Link>
         <Button icon={<DownloadIcon />}>Apply IDO</Button>
       </div>
     </div>
