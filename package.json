@@ -23,6 +23,7 @@
     "@types/numeral": "^2.0.2",
     "@web3modal/wagmi": "4.0.0-alpha.3",
     "bignumber.js": "^9.1.2",
+    "clsx": "^2.1.0",
     "copy-to-clipboard": "^3.3.3",
     "date-fns": "^2.30.0",
     "dayjs": "^1.11.9",

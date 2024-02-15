@@ -30,7 +30,7 @@ export const NumericalInput = React.memo(function InnerInput({
   return (
     <input
       className={classNames(
-        'border-0 min-w-0 text-right bg-transparent p-0 text-2xl font-bold text-black focus:outline-0 focus:ring-0 sm:leading-6',
+        'border-0 min-w-0 text-right bg-transparent p-0 text-2xl font-bold text-black w-full focus:outline-0 focus:ring-0 sm:leading-6',
         className
       )}
       {...rest}

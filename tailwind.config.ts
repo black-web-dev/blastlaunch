@@ -15,7 +15,8 @@ export default {
       },
       boxShadow: {
         inputFocus: '0 0 10px 2px rgb(255 255 255 / 29%)',
-        card: '0px 4px 4px 0px #00000040'
+        card: '0px 4px 4px 0px #00000040',
+        bottomBar: '0 -1px 4px rgba(0,0,0,.25)'
       },
       backgroundImage: {
         subHeader: "url('/images/home/sub_header.png')",

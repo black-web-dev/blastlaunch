@@ -23,16 +23,16 @@ const BTLStakingScreen = (): JSX.Element => {
         <div className='flex flex-col items-center justify-start gap-4 p-5 text-2xl'>
           <div className='text-4xl font-bold'>Funded Projects</div>
           <div className='grid grid-cols-4 items-center text-sm font-semibold'>
-            <div className='rounded-l-lg border border-black/50 bg-white p-3 text-center'>
+            <div className='h-full rounded-l-lg border border-black/50 bg-white p-3 text-center'>
               Total raised capital
             </div>
-            <div className='border border-l-0 border-black/50 bg-white p-3 text-center'>
+            <div className='h-full border border-l-0 border-black/50 bg-white p-3 text-center'>
               Num. of IDO
             </div>
-            <div className='border border-l-0 border-black/50 bg-white p-3 text-center'>
+            <div className='h-full border border-l-0 border-black/50 bg-white p-3 text-center'>
               Total Paricipants
             </div>
-            <div className='rounded-r-lg border border-l-0 border-black/50 bg-white p-3 text-center'>
+            <div className='h-full rounded-r-lg border border-l-0 border-black/50 bg-white p-3 text-center'>
               Av. ROI(ATH)
             </div>
           </div>
@@ -44,12 +44,12 @@ const BTLStakingScreen = (): JSX.Element => {
           </div>
         </div>
       </div>
-      <div className='rounded-lg bg-white p-10'>
+      <div className='rounded-lg bg-white p-5 lg:p-10'>
         <div className='flex flex-col items-center gap-10'>
           <div className='flex items-center gap-2'>
             <div className='text-2xl font-bold'>BTL Staking</div>
           </div>
-          <div className='grid w-full grid-cols-3 gap-4'>
+          <div className='grid w-full grid-cols-1 lg:grid-cols-3 gap-4'>
             <div className='shadow-card flex flex-col items-start gap-4 rounded-lg bg-[#EFF8FD] p-5'>
               <div className='text-xl font-semibold'>BTL STAKED:</div>
               <div className='text-xl font-semibold'>0</div>

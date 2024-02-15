@@ -7,10 +7,10 @@ export const IDOSubHeader = () => {
   const asPath = router.pathname.split('/')[2];
 
   return (
-    <div className='flex flex-col gap-2'>
+    <div className='flex flex-col gap-2 w-full'>
       <div className='flex items-center gap-2'>
-        <Button onClick={() => router.push('/ido/projects')}>Projects</Button>
-        <Button onClick={() => router.push('/ido/funded')} variant='outline'>
+        <Button className='w-full lg:w-fit justify-center lg:justify-start' onClick={() => router.push('/ido/projects')}>Projects</Button>
+        <Button className='w-full lg:w-fit justify-center lg:justify-start' onClick={() => router.push('/ido/funded')} variant='outline'>
           Funded
         </Button>
       </div>

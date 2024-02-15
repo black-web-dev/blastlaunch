@@ -21,8 +21,8 @@ export const Header = (): JSX.Element => {
   return (
     <div className='flex items-start justify-between gap-5'>
       <SubMenu />
-      <div className='flex-auto'></div>
-      <div className='flex items-center gap-5'>
+      <div className='hidden lg:flex-auto'></div>
+      <div className='hidden lg:flex items-center gap-5'>
         <NotificationIcon />
         <WalletButton />
       </div>

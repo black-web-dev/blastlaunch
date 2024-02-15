@@ -2,7 +2,6 @@ import React from 'react';
 
 import DiscordIcon from '~/svg/discord.svg';
 import BTLIcon from '~/svg/logo.svg';
-import MarkIcon from '~/svg/mark.svg';
 import TelegramIcon from '~/svg/telegram.svg';
 import TwitterIcon from '~/svg/twitter.svg';
 
@@ -29,7 +28,7 @@ const ProjectItem = ({ onClick }: { onClick: () => void }): JSX.Element => {
             </div>
           </div>
           <div className='max-w-[250px] text-sm font-semibold'>
-            A user driven IDO launchpad on Aptos connecting retail investors and
+            A user driven IDO launchpad on Blast connecting retail investors and
             projects together.
           </div>
         </div>
@@ -51,12 +50,6 @@ const ProjectItem = ({ onClick }: { onClick: () => void }): JSX.Element => {
             <div className='rounded-full bg-[#EFF8FD] px-4 py-1 text-center text-sm text-[#070D13]'>
               DeFi
             </div>
-          </div>
-        </div>
-        <div className='flex items-center justify-end'>
-          <div className='flex items-center gap-2'>
-            <MarkIcon className='h-6 w-6' />
-            <div className='text-xl font-semibold'>239,350</div>
           </div>
         </div>
       </div>

@@ -12,8 +12,8 @@ import BTLIcon from '~/svg/logo.svg';
 
 const SwapScreen = (): JSX.Element => {
   return (
-    <div className='flex h-full w-full items-start justify-center p-20'>
-      <div className='flex w-[436px] flex-col gap-3 rounded-lg bg-white p-4'>
+    <div className='flex h-full w-full items-start justify-center p-0 lg:p-20'>
+      <div className='flex w-full lg:min-w-[436px] flex-col gap-3 rounded-lg bg-white p-4'>
         <div className='text-2xl font-bold'>Swap</div>
         <div className='flex flex-col gap-2 rounded-lg bg-[#FFF8E3] p-3'>
           <div className='flex w-full items-center justify-between'>

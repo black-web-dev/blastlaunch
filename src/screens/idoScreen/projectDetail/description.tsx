@@ -14,13 +14,17 @@ const Description = (): JSX.Element => {
             <div className='font-bold'>Blastlaunch</div>
           </div>
         </div>
-        <div className='max-w-[500px] whitespace-pre-wrap text-base font-semibold'>
-          A user driven IDO launchpad on Aptos connecting retail investors and
+        <div className='hidden max-w-[500px] whitespace-pre-wrap text-base font-semibold lg:block'>
+          A user driven IDO launchpad on Blast connecting retail investors and
           projects together.
         </div>
       </div>
+      <div className='max-w-[500px] whitespace-pre-wrap text-base font-semibold lg:hidden'>
+        A user driven IDO launchpad on Blast connecting retail investors and
+        projects together.
+      </div>
       <div className='flex items-start justify-between'>
-        <div className='flex flex-col gap-4'>
+        <div className='hidden flex-col gap-4 lg:flex'>
           <div className='flex items-center gap-4'>
             <TwitterIcon className='h-8 w-8' />
             <DiscordIcon className='h-8 w-8' />

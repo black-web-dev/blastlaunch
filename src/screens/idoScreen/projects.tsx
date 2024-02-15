@@ -36,7 +36,7 @@ const ProjectScreen = ({ slug }: ProjectScreenProps) => {
     return <ProjectDetail selectedProject={selectedProject} />;
 
   return (
-    <div className='grid grid-cols-2 items-start gap-4'>
+    <div className='grid grid-cols-1 lg:grid-cols-2 items-start gap-4'>
       <ProjectItem onClick={() => handleOpen('blastlaunch')} />
     </div>
   );
