@@ -1,14 +1,3 @@
-import { useRouter } from 'next/router';
-import { useEffect } from 'react';
+import ProjectScreen from '@/screens/idoScreen/projects';
 
-const Index = () => {
-  const router = useRouter();
-
-  useEffect(() => {
-    router.push('/ido/projects');
-  }, [router]);
-
-  return <></>;
-};
-
-export default Index;
+export default ProjectScreen;

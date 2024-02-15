@@ -3,4 +3,5 @@ import '@/styles/colors.css';
 import '@/styles/rcSlider.css';
 
 import Base from '@/components/base';
-export default Base;
+import WithLoading from '@/components/common/withLoading';
+export default WithLoading(Base);
