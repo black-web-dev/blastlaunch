@@ -6,7 +6,7 @@ import { Sidebar } from './sidebar';
 const Default = ({ children }: { children: ReactNode }): JSX.Element => {
   return (
     <>
-      <div className='relative flex min-h-screen gap-4 bg-[#F0F2F5] p-10 text-[#070D13]'>
+      <div className='relative flex min-h-screen max-w-[1440px] gap-4 p-10 text-[#070D13] mx-auto'>
         <Sidebar />
         <div className='flex flex-auto flex-col gap-4'>
           <Header />
