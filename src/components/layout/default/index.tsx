@@ -9,7 +9,7 @@ const Default = ({ children }: { children: ReactNode }): JSX.Element => {
   return (
     <>
       <Topbar />
-      <div className='relative mx-auto flex min-h-screen max-w-[1440px] gap-4 p-5 lg:p-10 text-[#070D13]'>
+      <div className='relative mx-auto flex min-h-screen max-w-[1440px] gap-4 p-5 text-[#070D13] lg:p-10'>
         <Sidebar />
         <div className='flex flex-auto flex-col gap-4'>
           <Header />
